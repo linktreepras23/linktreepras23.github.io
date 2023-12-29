@@ -1,0 +1,26 @@
+img{
+    width: 90px; 
+    height: 90px; 
+    border-radius: 100%;
+    object-fit: cover; 
+    border: 4px;
+}
+center{
+    margin-top: 100px;
+}
+body {
+    background-image: url(image/bg.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', 'open sans', sans-serif;
+}
+.card{
+    background-color: rgba(0,0,0,0.2);
+}
+.card:hover{
+    background-color: #fff;
+}
